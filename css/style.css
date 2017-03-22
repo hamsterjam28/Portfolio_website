@@ -1,8 +1,12 @@
-body{
-    margin: @px;
-    background-image: url(images/ocean.jpg);
-    background-size: cover;
+html {
+  background: url(images/ocean.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
 
 #main_container{
     width: 1024px;
