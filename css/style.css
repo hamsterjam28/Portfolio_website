@@ -24,3 +24,14 @@ html {
 }
 
 
+
+.container {
+    display: flex;
+        width: 100%;
+              flex-grow: 6;
+    flex-direction: row;
+            justify-content: flex-end;
+        justify-content: space-between 62px;
+    justify-content: space-around 62px;
+
+}
