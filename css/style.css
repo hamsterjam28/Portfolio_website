@@ -11,9 +11,6 @@ html {
 #main_container{
     width: 1024px;
     height: 768px;
-    position: relative;
-    margin: auto;
-    background-size: cover;
 }
 
 #logo {
@@ -26,16 +23,19 @@ html {
 
 
 .container {
+    position: absolute;
+    list-style-type: none;
     display: flex;
-        width: 100%;
-              flex-grow: 6;
+    width: 100%;
     flex-direction: row;
-            justify-content: flex-end;
     justify-content: space-around;
-        font-family: 'Muli', sans-serif;
-    align-items: flex-start;
-    top:
+    font-family: 'Muli', sans-serif;
+    font-size: 25pt;
 } /* Navigation Bar*/
+
+.navitem{
+
+}
 
 h1 { /* Nia Anderson on home page*/
   text-shadow: 0 1px 0 #ccc,
