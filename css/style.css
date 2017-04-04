@@ -4,7 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} /*the background img for the pg*/
 
 #main_container {
     width: 1024px;
@@ -30,10 +30,10 @@ html {
     justify-content: space-around;
     font-family: 'Muli', sans-serif;
     font-size: 25pt;
-}
+} /* Navigation Bar*/
 
 
-/* Navigation Bar*/
+
 
 
 /* unvisited link */
@@ -43,7 +43,7 @@ a:link {
 }
 
 h1 {
-    /* Nia Anderson on home page*/
+    /* Nia Anderson on home page with black text shadow*/
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -63,11 +63,11 @@ ul {
     overflow: hidden;
     background-color: #7A7775;
     opacity: .80;
-}
+} /* Navigation Bar transitions*/
 
 li {
     float: left;
-}
+} /* more Navigation Bar transitions*/
 
 li a {
     display: block;
