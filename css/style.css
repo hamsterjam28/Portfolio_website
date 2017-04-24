@@ -9,6 +9,7 @@
 #main_container {
     width: 1024px;
     height: 768px;
+    border: solid 1px black;
 }
 
 #logo {
